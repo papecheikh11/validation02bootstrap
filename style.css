@@ -202,22 +202,22 @@ footer{
     margin-left: 55%;
     z-index: 2;
     flex-direction: column;
-    height: 150px;
+    
     background: #F6E1C5;
     border-radius: 5.03031px;
 }
 #premier-product .cadre-blanc-product1 .lorem{
-    height: 22px;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
+    
     color: #000000;
 
 }
 #premier-product .cadre-blanc-product1 .pro{
-    height: 44px;
+   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 100;
@@ -229,12 +229,12 @@ footer{
     position: relative;
     margin-top: -50px;
    
-    height: 189px;
+    
     background: #F6E1C5;
     border-radius: 5.03031px;
 }
 #premier-product .cadre-blanc-product2 p{
-    height: 110px;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -260,27 +260,27 @@ footer{
     z-index: 2;
     flex-direction: column;
    
-    height: 150px;
+   
     background: #F6E1C5;
     border-radius: 5.03031px;
 }
 #deuxieme-product .cadre-blanc-product1 .lorem{
-    height: 22px;
+   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
+    
     color: #000000;
 
 }
 #deuxieme-product .cadre-blanc-product1 .pro{
-    height: 44px;
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 100;
     font-size: 30px;
-    line-height: 44px;
+   
     color: #000000;
 }
 #deuxieme-product  .cadre-blanc-product2{
@@ -288,17 +288,15 @@ footer{
     position: relative;
     margin-top: -50px;
    
-    height: 189px;
+  
     background: #F6E1C5;
     border-radius: 5.03031px;
 }
 #deuxieme-product .cadre-blanc-product2 p{
-    height: 110px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
     color: #000000;
 }
 
