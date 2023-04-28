@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* ----------------------------section-entete------------------------------------- */
+#entete .business{
+    font-size: 4em;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+#entete .deux-div {
+    margin-top: 100px;
+    background: #490909;
+    height: 100px;
+}
+/* ----------------------------section-premier------------------------------------- */
+#premier{
+    margin-top: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+#premier .cadre-blanc{
+    margin-left: 0;
+    justify-content: center;
+    z-index: 2;
+    background: #F6E1C5;
+    margin-top: 60px;
+    height: 370px;
+}
+#premier .prem-toph img{
+margin-right: 10%;
+}
+#premier .prem-toph{
+    display: flex;
+    margin-left: -10%;
+}
+#premier button{
+    align-self: center;
+    margin-left: 30%; 
+    margin-top: 50px;
+    height: 68px;
+    background: #490909;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+#premier .work {
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.19em;
+}
+#premier .cofee{
+    font-weight: 700;
+    font-size: 14px;
+}
+#premier p{
+    
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.19em;
+}
+/* ----------------------------section-deuxieme------------------------------------- */
+#deuxieme .container{
+    margin-top: 100px;
+    height: 535px;
+    background: rgba(165, 52, 43, 0.69);
+}
+#deuxieme  .contenu{
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 20%;
+    background: #F6E1C5;
+    border-radius: 5px;
+    border: rgba(165, 52, 43, 0.69) 10px ridge ;
+}
+#deuxieme  .contenu p{
+    text-align: center;
+   padding-inline: 10%;
+    height: 137px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #000000;
+}
+#deuxieme .contenu h1{
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #000000;
+}
+#deuxieme .contenu .to-you{
+    
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #000000;
+}
+footer{
+    align-items: center;
+    color: #fff;
+    height: 150px;
+    left: -2px;
+    margin-top: 200px;
+    background: #311919;
+}
+
+/* ------------------------------------about-------------------------------------- */
+
+#premier-about{
+    margin-top: 100px;
+   
+}
+#premier-about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#premier-about .toph-about img{
+    
+    height: 418px;
+  margin-left: 10%;
+}
+#premier-about .cadre-blanc-about{
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
+   margin-left: 21%;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 20px;
+    background: #F6E1C5;
+    border-radius: 5px;
+}
+#premier-about .cadre-blanc-about .lorem {
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#premier-about .cadre-blanc-about .toph-about{
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 44px;
+    color: #000000;
+
+}
+#premier-about  .cadre-blanc-about .para{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/* ------------------------------------products-1-------------------------------------- */
+
+#premier-product .container{
+    margin-top: 100px;
+}
+
+#premier-product .toph-product1 img{
+    margin-top: -50px;
+    height: 604px;
+}
+
+#premier-product .cadre-blanc-product1{
+    position: relative;
+    margin-left: 55%;
+    z-index: 2;
+    flex-direction: column;
+    height: 150px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#premier-product .cadre-blanc-product1 .lorem{
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+#premier-product .cadre-blanc-product1 .pro{
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+}
+#premier-product .cadre-blanc-product2{
+    position: relative;
+    margin-top: -50px;
+   
+    height: 189px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#premier-product .cadre-blanc-product2 p{
+    height: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/* ------------------------------------products-2-------------------------------------- */
+
+#deuxieme-product .container {
+    margin-top: 100px;
+}
+
+#deuxieme-product .toph-product1 img{
+    margin-top: -50px;
+    width: 800px;
+    height: 604px;
+}
+
+#deuxieme-product  .cadre-blanc-product1{
+    position: relative;
+   
+    z-index: 2;
+    flex-direction: column;
+   
+    height: 150px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#deuxieme-product .cadre-blanc-product1 .lorem{
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+#deuxieme-product .cadre-blanc-product1 .pro{
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+}
+#deuxieme-product  .cadre-blanc-product2{
+    margin-left: 50%;
+    position: relative;
+    margin-top: -50px;
+   
+    height: 189px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#deuxieme-product .cadre-blanc-product2 p{
+    height: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* ------------------------------------products-3-------------------------------------- */
+
+#troisieme-product .container {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#troisieme-product .toph-product1 img{
+    margin-top: -50px;
+    width: 800px;
+    height: 604px;
+}
+
+#troisieme-product .cadre-blanc-product1{
+    position: relative;
+    margin-left: 55%;
+    z-index: 2;
+    flex-direction: column;
+    width: 413px;
+    height: 150px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#troisieme-product .cadre-blanc-product1 .lorem{
+    height: 22px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+#troisieme-product .cadre-blanc-product1 .pro{
+    height: 44px;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+}
+#troisieme-product .cadre-blanc-product2{
+    position: relative;
+    margin-top: -50px;
+    width: 521px;
+    height: 189px;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+#troisieme-product .cadre-blanc-product2 p{
+    height: 110px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/* ------------------------------------deuxieme-store-------------------------------------- */
+#deuxieme-store .container{
+    margin-top: 100px;
+    background: rgba(165, 52, 43, 0.69);
+}
+#deuxieme-store .horaires{
+    border: solid 15px #681111;
+    background-color: #F6E1C5;
+    margin-top: 100px;   
+    margin-bottom: 100px;
+    flex-direction: column;
+    
+}
+#deuxieme-store .horaires .come-on {
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+#deuxieme-store .horaires .open{
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+#deuxieme-store .horaires .orchard{
+    height: 26px;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+
+}
+#deuxieme-store .horaires .minnesota{
+
+    height: 17px;
+    font-family: 'MingLiU_HKSCS-ExtB';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#deuxieme-store .horaires .call{
+    height: 17px;
+    font-family: 'MingLiU_HKSCS-ExtB';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+#deuxieme-store .horaires .num{
+    height: 17px;
+    font-family: 'MingLiU_HKSCS-ExtB';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#deuxieme-store .horaires span{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    height: 1px;
+    background: #CFAFAD;
+}
+
+
+
+
+
+
+
+
+/* -------------responsive-------------- */
+
+@media screen AND (max-width: 991px) {
+    body{
+        height: auto;
+    }
+    
+    #premier .prem-toph img{
+        display: none;
+        }
+
+    #premier .cadre-blanc{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #F6E1C5;
+        margin-top: 100px;
+        height: 370px;
+       
+    }
+
+
+
+    #premier button{
+        margin-left: -5%;
+        display: flex;
+        margin-top: 60px;
+       
+        background: #490909;
+        color: #fff;
+    }
+    #premier p{
+        margin-left: 0;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.19em;
+    }
+    #premier-about .cadre-blanc-about{
+        margin-top: 100px;
+        margin-left: 0px;
+         flex-direction: column;
+         width: 100%;
+         height: 320px;
+         background: #F6E1C5;
+         border-radius: 5px;
+     }
+     #premier-product .cadre-blanc-product1{
+        position: relative;
+        margin-left: 0;
+        z-index: 2;
+        flex-direction: column;
+        
+        height: 150px;
+        background: #F6E1C5;
+        border-radius: 5.03031px;
+    }
+    #deuxieme-product .cadre-blanc-product2{
+        margin-left: 0;
+        position: relative;
+        margin-top: -50px;
+       
+        height: 189px;
+        background: #F6E1C5;
+        border-radius: 5.03031px;
+    }
+    #premier-about .toph-about img{
+        display: none;
+    position: relative;
+        height: 418px;
+      margin-left: 0;
+      width: auto;
+    }
+    #premier-about .cadre-blanc-about{
+        position: relative;
+        z-index: 2;
+        margin-top: 0;
+       margin-left: 0;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 20px;
+        background: #F6E1C5;
+        border-radius: 5px;
+    }
+}
+
