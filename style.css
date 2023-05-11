@@ -23,10 +23,10 @@ body
     font-family: 'Montserrat';
 }
 #premier .cadre-blanc{
+    
     z-index: 2;
     background: #F6E1C5;
     margin-top: 70px;
-    height: 360px;
 }
 #premier .prem-toph{
     margin-left: -10%;
@@ -51,7 +51,7 @@ body
 }
 /* ----------------------------section-deuxieme------------------------------------- */
 #deuxieme .container{
-    height: 535px;
+   
     background: rgba(165, 52, 43, 0.69);
 }
 #deuxieme  .contenu{
