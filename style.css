@@ -116,7 +116,7 @@ footer{
     margin-top: 100px;
 }
 #premier-product .toph-product1 img{
-    margin-top: -50px;
+ 
     height: 550px;
 }
 #premier-product .cadre-blanc-product1{
@@ -146,7 +146,7 @@ footer{
 #premier-product .cadre-blanc-product2{
     position: relative;
     margin-top: -50px;
-   
+    margin-left: -20px;
     
     background: #F6E1C5;
     border-radius: 5.03031px;
@@ -228,7 +228,7 @@ footer{
 
 #troisieme-product .toph-product1 img{
     margin-top: -50px;
-    width: 800px;
+   
     height: 604px;
 }
 
@@ -328,7 +328,6 @@ footer{
             background: #F6E1C5;
             margin-top: 70px;
             margin-bottom: 70px;
-            
         }
         #premier .row{
             flex-direction: column-reverse;
@@ -354,12 +353,24 @@ footer{
          background: #F6E1C5;
          border-radius: 5px;
      }
+     /* -----------------product--------------- */
+
      #premier-product .cadre-blanc-product1{
         position: relative;
         margin-left: 0;
+        margin-bottom: 30px;
         z-index: 2;
         flex-direction: column;
-        
+        height: 150px;
+        background: #F6E1C5;
+        border-radius: 5.03031px;
+    }
+    #deuxieme-product .cadre-blanc-product1{
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 30px;
+        z-index: 2;
+        flex-direction: column;
         height: 150px;
         background: #F6E1C5;
         border-radius: 5.03031px;
@@ -367,12 +378,21 @@ footer{
     #deuxieme-product .cadre-blanc-product2{
         margin-left: 0;
         position: relative;
-        margin-top: -50px;
-       
+        margin-top: 30px;
         height: 189px;
         background: #F6E1C5;
         border-radius: 5.03031px;
     }
+    #premier-product .cadre-blanc-product2{
+        margin-left: 0;
+        position: relative;
+        margin-top: 30px;
+        
+        height: 189px;
+        background: #F6E1C5;
+        border-radius: 5.03031px;
+    }
+    /* ---------------------------------------------- */
     #premier-about .toph-about img{
         
     position: relative;
